@@ -8,7 +8,7 @@ const (
 	NameDelimiter     = "-"
 
 	ImageVM       = "rancher/vm"
-	ImageVMPrefix = "rancher/vm-%s"
+	ImageVMPrefix = "%s"
 	ImageVMTools  = "rancher/vm-tools"
 	ImageNoVNC    = "rancher/novnc"
 

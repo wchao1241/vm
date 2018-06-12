@@ -15,7 +15,3 @@ clean:
 
 tag_latest:
 	docker tag $(NAME):$(VERSION) $(NAME):latest
-
-push:
-	docker push $(NAME):$(VERSION)
-	docker push $(NAME):latest

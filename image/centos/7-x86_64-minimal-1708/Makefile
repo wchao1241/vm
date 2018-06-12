@@ -4,7 +4,7 @@ BASE_IMAGE=CentOS-$(VERSION).qcow2
 
 .PHONY : all
 
-all: build push
+all: build
 
 build:
 	[ -f $(BASE_IMAGE) ] || wget https://s3-us-west-1.amazonaws.com/ranchervm/$(BASE_IMAGE)
